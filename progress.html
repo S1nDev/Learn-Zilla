@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>LearnZilla | Progress</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="daily_activity_chart.js"></script>
+    <script type="text/javascript" src="algebra_gauge.js"></script>
+    <script type="text/javascript" src="biology_gauge.js"></script>
+    <script type="text/javascript" src="english_gauge.js"></script>
+    <script type="text/javascript" src="world_history_gauge.js"></script>
+    <script type="text/javascript" src="performance.js"></script>
+    <script type="text/javascript" src="submit.js"></script>
+    <script type="text/javascript" src="clock.js"></script>
+    <link rel="icon" type="image/bmp" href="favicon.bmp" />
+</head>
+<body onload="algPerformance(); bioPerformance(); engPerformance(); whsPerformance(); avePerformance();">
+    <!--main-->
+    <div class="main">
+        <!--header-->
+        <div class="header">
+            <img id="center" src="learnzilla.bmp" width="550" alt="Learnzilla" />
+        </div>
+        <!--nav-->
+        <div class="nav">
+            <a class="navlinks" href="home.html">Home</a>
+            <a class="navlinks" href="about.html">About</a>
+            <a class="navlinks" href="subjects.html">Subjects</a>
+            <a class="navlinks" href="login.html">Login</a>
+            <a class="navlinks" id="currentnav">Progress</a>
+        </div>
+        <!--content-->
+        <div id="progress" class="content">
+            <h1>Your Progress</h1>
+            <p>The following graphs and figures illustrate your progress:</p>
+            <div id="daily_activity"></div>
+            <hr />
+            <br />
+            <table class="cleartable">
+                <tr>
+                    <td width="150">
+                        <div id="skill_level_algebra"></div>
+                    </td>
+                    <td width="150" align="center">
+                        <h2>Algebra</h2>
+                    </td>
+                    <td width="450">
+                        <h3>Performance level:</h3>
+                        <p id="algSkill">-</p>
+                    </td>
+                </tr>
+            </table>
+            <table class="cleartable">
+                <tr>
+                    <td width="150">
+                        <div id="skill_level_biology"></div>
+                    </td>
+                    <td width="150" align="center">
+                        <h2>Biology</h2>
+                    </td>
+                    <td width="450">
+                        <h3>Performance level:</h3>
+                        <p id="bioSkill">-</p>
+                    </td>
+                </tr>
+            </table>
+            <table class="cleartable">
+                <tr>
+                    <td width="150">
+                        <div id="skill_level_english"></div>
+                    </td>
+                    <td width="150" align="center">
+                        <h2>English</h2>
+                    </td>
+                    <td width="450">
+                        <h3>Performance level:</h3>
+                        <p id="engSkill">-</p>
+                    </td>
+                </tr>
+            </table>
+            <table class="cleartable">
+                <tr>
+                    <td width="150">
+                        <div id="skill_level_world_history"></div>
+                    </td>
+                    <td width="150" align="center">
+                        <h2>World History</h2>
+                    </td>
+                    <td width="450">
+                        <h3>Performance level:</h3>
+                        <p id="whsSkill">-</p>
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <div class="block">
+                <h3>Total performance:</h3>
+                <p id="aveScore">-</p>
+                <p id="aveSkill">-</p>
+            </div>
+            <br />
+            <hr />
+            <div class="references">
+                <p>Charts are used from Google Charts library. Data represented by charts is subject to change.</p>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <table class="cleartable">
+                <tr>
+                    <td width="650">
+                        <i>TEAM #2068</i>
+                        <br />
+                        <i>Software Development</i>
+                        <br />
+                        <i>Technology Student Association</i>
+                    </td>
+                    <td width="100">
+                        <a href="https://tsaweb.org/">
+                            <img class="footerimg" src="tsa_logo.png" width="100" alt="TSA Logo" />
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

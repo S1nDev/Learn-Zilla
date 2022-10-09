@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>LearnZilla | Subjects | Algebra</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    <link rel="icon" type="image/bmp" href="favicon.bmp" />
+    <script type="text/javascript" src="profile.js"></script>
+    <script type="text/javascript" src="performance.js"></script>
+    <script type="text/javascript" src="clock.js"></script>
+</head>
+<body>
+    <!--main-->
+    <div class="main">
+        <!--header-->
+        <div class="header">
+            <img id="center" src="learnzilla.bmp" width="550" alt="Learnzilla" />
+        </div>
+        <!--nav-->
+        <div class="nav">
+            <a class="navlinks" href="home.html">Home</a>
+            <a class="navlinks" href="about.html">About</a>
+            <a class="navlinks" id="currentnav">Subjects</a>
+            <a class="navlinks" href="login.html">Login</a>
+            <a class="navlinks" href="progress.html">Progress</a>
+        </div>
+        <!--content-->
+        <div class="content">
+            <h3>Solving Radical Equations</h3>
+            <p>In this lesson, you will learn how to solve equations with radicals.</p>
+            <p>Solving radical equations is a long process of simplifying, factoring, and testing with the given values of an equation. The standard steps of solving these equations are animated in the following video:</p>
+            <video src="solving_equation.mp4" type="video/mp4" width="650" alt="Solving radical equation" controls></video>
+            <p>Put into words, the steps are as follows:</p>
+            <p>1. Simplify equation by isolating values of differing powers:</p>
+            <span class="math">
+                &radic;<span id="rad">x - 3</span> + 5 = x <br />
+                &emsp; - 5 &emsp; &ensp; - 5 <br />
+                &radic;<span id="rad">x - 3</span> = x - 5 <br />
+                (&radic;<span id="rad">x - 3</span>)&sup2; = (x - 5)&sup2; <br />
+                x - 3 = (x - 5)(x - 5)
+            </span>
+            <br />
+            <p>2. Factor to simplify further:</p>
+            <span class="math">
+                x - 3 = (x - 5)(x - 5) <br />
+                x - 3 = x&sup2; -5x - 5x +25 <br />
+                x - 3 = x&sup2; -10x +25 <br />
+                -x &emsp; &emsp; &ensp; -x <br />
+                -3 = x&sup2; -11x +25 <br />
+                +3 &emsp; &emsp; &emsp; &ensp; +3 <br />
+                0 = x&sup2; -11x +28 <br />
+                0 = (x - 7)(x - 4)
+            </span>
+            <br />
+            <p>3. Elimanate extraneous solutions and find real solutions:</p>
+            <span class="math">
+                0 = (x - 7)(x - 4) <br />
+                0 = x - 7 &emsp; 0 = x - 4 <br />
+                +7 &ensp; +7 &emsp; +4 &ensp; +4 <br />
+                7 = x &ensp; OR &ensp; 4 = x <br /><br />
+                &radic;<span id="rad">(7) - 3</span> + 5 = (7) <br />
+                &radic;<span id="rad">4</span> + 5 = 7 <br />
+                2 + 5 = 7 <br />
+                7 = 7 &ensp; &check;<br /><br />
+                &radic;<span id="rad">(4) - 3</span> + 5 = (4) <br />
+                &radic;<span id="rad">1</span> + 5 = 4 <br />
+                1 + 5 = 4 <br />
+                6 &ne; 4 &ensp; &cross;
+            </span>
+            <br />
+            <p>4 is an <span class="tooltip">extraneous solution<span class="tooltiptext">A solution of the simplified form of an equation that does not satisfy the original equation and must be discarded</span></span> and is false; 7 is the true solution.</p>
+            <br />
+            <a class="nextlink" href="equations2.html">Next &rsaquo;</a>
+            <br /><br /><br />
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <table class="cleartable">
+                <tr>
+                    <td width="650">
+                        <i>TEAM #2068</i>
+                        <br />
+                        <i>Software Development</i>
+                        <br />
+                        <i>Technology Student Association</i>
+                    </td>
+                    <td width="100">
+                        <a href="https://tsaweb.org/">
+                            <img class="footerimg" src="tsa_logo.png" width="100" alt="TSA Logo" />
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

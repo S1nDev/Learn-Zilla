@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>LearnZilla | Subjects | English</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    <link rel="icon" type="image/bmp" href="favicon.bmp" />
+    <script type="text/javascript" src="submit.js"></script>
+    <script type="text/javascript" src="profile.js"></script>
+    <script type="text/javascript" src="performance.js"></script>
+    <script type="text/javascript" src="clock.js"></script>
+</head>
+<body>
+    <!--main-->
+    <div class="main">
+        <!--header-->
+        <div class="header">
+            <img id="center" src="learnzilla.bmp" width="550" alt="Learnzilla" />
+        </div>
+        <!--nav-->
+        <div class="nav">
+            <a class="navlinks" href="home.html">Home</a>
+            <a class="navlinks" href="about.html">About</a>
+            <a class="navlinks" id="currentnav">Subjects</a>
+            <a class="navlinks" href="login.html">Login</a>
+            <a class="navlinks" href="progress.html">Progress</a>
+        </div>
+        <!--content-->
+        <div class="content">
+            <p>Based on the information on the previous page, answer the following questions:</p>
+            <form name="quiz">
+                <fieldset id="q1">
+                    <legend>#1</legend>
+                    <p id="mark1" style="float: right"></p>
+                    <p>Who is the speaker of the first stanza of this excerpt?</p>
+                    <input type="radio" name="q1" value="a"> A. The narrator<br />
+                    <input type="radio" name="q1" value="b"> B. Romeo<br />
+                    <input type="radio" name="q1" value="c"> C. Juliet<br />
+                    <input type="radio" name="q1" value="d"> D. Capulet<br />
+                    <br />
+                </fieldset>
+                <br />
+                <fieldset id="q2">
+                    <legend>#2</legend>
+                    <p id="mark2" style="float: right"></p>
+                    <p>Knowing that this meeting between Romeo and Juliet was planned beforehand, why was Romeo reluctant to reveal himself?</p>
+                    <input type="radio" name="q2" value="a"> A. He is attempting to make a bold appearence.<br />
+                    <input type="radio" name="q2" value="b"> B. He is wondering what else Juliet will say.<br />
+                    <input type="radio" name="q2" value="c"> C. He is a saucy boy and she is an egg.<br />
+                    <input type="radio" name="q2" value="d"> D. He is apprehensive of her love of him.<br />
+                    <br />
+                </fieldset>
+                <br />
+                <fieldset id="q3">
+                    <legend>#3</legend>
+                    <p id="mark3" style="float: right"></p>
+                    <p>What is it that makes Romeo finally reveal himself?</p>
+                    <input type="radio" name="q3" value="a"> A. Juliet's assault on his honor.<br />
+                    <input type="radio" name="q3" value="b"> B. Juliet's desperation to find him.<br />
+                    <input type="radio" name="q3" value="c"> C. Juliet's reminder of his promise.<br />
+                    <input type="radio" name="q3" value="d"> D. Juliet's continuous calls.<br />
+                    <br />
+                </fieldset>
+                <br />
+                <fieldset id="q4">
+                    <legend>#4</legend>
+                    <p id="mark4" style="float: right"></p>
+                    <p>How does Romeo ease Juliet?</p>
+                    <input type="radio" name="q4" value="a"> A. He claims to betray his family name for her.<br />
+                    <input type="radio" name="q4" value="b"> B. He promptly states who he his and not someone else.<br />
+                    <input type="radio" name="q4" value="c"> C. He begins reciting multiple love poems for her.<br />
+                    <input type="radio" name="q4" value="d"> D. He takes leave of the orchard for her comfort.<br />
+                    <br />
+                </fieldset>
+                <br />
+                <fieldset id="q5">
+                    <legend>#5</legend>
+                    <p id="mark5" style="float: right"></p>
+                    <p>How does Juliet feel in the presence of Romeo in the orchard?</p>
+                    <input type="radio" name="q5" value="a"> A. Recognition of his voice.<br />
+                    <input type="radio" name="q5" value="b"> B. Worried of his arrival.<br />
+                    <input type="radio" name="q5" value="c"> C. Flattered by his love.<br />
+                    <input type="radio" name="q5" value="d"> D. Admirable of his dedication.<br />
+                    <br />
+                </fieldset>
+                <br />
+                <input id="turnIn" class="submit" type="button" value="Click to submit" onclick="submit_romeojuliet();">
+            </form>
+            <br />
+            <hr />
+            <br />
+            <div class="block">
+                <p id="number_correct">Finish your quiz to view your results!</p>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <table class="cleartable">
+                <tr>
+                    <td width="650">
+                        <i>TEAM #2068</i>
+                        <br />
+                        <i>Software Development</i>
+                        <br />
+                        <i>Technology Student Association</i>
+                    </td>
+                    <td width="100">
+                        <a href="https://tsaweb.org/">
+                            <img class="footerimg" src="tsa_logo.png" width="100" alt="TSA Logo" />
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

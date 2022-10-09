@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>LearnZilla | Subjects | World History</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    <link rel="icon" type="image/bmp" href="favicon.bmp" />
+    <script type="text/javascript" src="submit.js"></script>
+    <script type="text/javascript" src="profile.js"></script>
+    <script type="text/javascript" src="performance.js"></script>
+    <script type="text/javascript" src="clock.js"></script>
+</head>
+<body>
+    <!--main-->
+    <div class="main">
+        <!--header-->
+        <div class="header">
+            <img id="center" src="learnzilla.bmp" width="550" alt="Learnzilla" />
+        </div>
+        <!--nav-->
+        <div class="nav">
+            <a class="navlinks" href="home.html">Home</a>
+            <a class="navlinks" href="about.html">About</a>
+            <a class="navlinks" id="currentnav">Subjects</a>
+            <a class="navlinks" href="login.html">Login</a>
+            <a class="navlinks" href="progress.html">Progress</a>
+        </div>
+        <!--content-->
+        <div class="content">
+            <p>Based on the information on the previous page, answer the following questions:</p>
+            <form name="quiz">
+                <fieldset id="q1">
+                    <legend>#1</legend>
+                    <p id="mark1" style="float: right"></p>
+                    <p>The Revolutionary War was between which two countries?</p>
+                    <input type="radio" name="q1" value="a"> A. Britain and France<br />
+                    <input type="radio" name="q1" value="b"> B. France and Spain<br />
+                    <input type="radio" name="q1" value="c"> C. Spain and Britain<br />
+                    <input type="radio" name="q1" value="d"> D. Britain and the 13 Colonies<br />
+                    <br />
+                </fieldset>
+                <br />
+                <fieldset id="q2">
+                    <legend>#2</legend>
+                    <p id="mark2" style="float: right"></p>
+                    <p>Was the Battle of Yorktown the final battle of the Revolutionary War?</p>
+                    <input type="radio" name="q2" value="a"> A. Yes, it marked the end of the war.<br />
+                    <input type="radio" name="q2" value="b"> B. Yes, British forces fled after the battle.<br />
+                    <input type="radio" name="q2" value="c"> C. No, it was the turning point of the war.<br />
+                    <input type="radio" name="q2" value="d"> D. No, it was only one of the first battles.<br />
+                    <br />
+                </fieldset>
+                <br />
+                <fieldset id="q3">
+                    <legend>#3</legend>
+                    <p id="mark3" style="float: right"></p>
+                    <p>Why had Britain decided to forfeit the Revolutionary War?</p>
+                    <input type="radio" name="q3" value="a"> A. The colonies had clearly bested them in battle.<br />
+                    <input type="radio" name="q3" value="b"> B. The cost of fighting was critical.<br />
+                    <input type="radio" name="q3" value="c"> C. Britain did not want to become enemies with France.<br />
+                    <input type="radio" name="q3" value="d"> D. Britain risked losing trade with the colonies.<br />
+                    <br />
+                </fieldset>
+                <br />
+                <fieldset id="q4">
+                    <legend>#4</legend>
+                    <p id="mark4" style="float: right"></p>
+                    <p>When was the Treaty of Paris ratified?</p>
+                    <input type="radio" name="q4" value="a"> A. April of 1783<br />
+                    <input type="radio" name="q4" value="b"> B. December of 1783<br />
+                    <input type="radio" name="q4" value="c"> C. July of 1776<br />
+                    <input type="radio" name="q4" value="d"> D. October of 1776<br />
+                    <br />
+                </fieldset>
+                <br />
+                <fieldset id="q5">
+                    <legend>#5</legend>
+                    <p id="mark5" style="float: right"></p>
+                    <p>How does the Treaty of Paris reflect on American society today?</p>
+                    <input type="radio" name="q5" value="a"> A. Celebrated on the fourth of July as Independence Day.<br />
+                    <input type="radio" name="q5" value="b"> B. Honored with the American National Anthem.<br />
+                    <input type="radio" name="q5" value="c"> C. Remembered by the Pledge of Allegiance.<br />
+                    <input type="radio" name="q5" value="d"> D. Relief of work with Summer Break.<br />
+                    <br />
+                </fieldset>
+                <br />
+                <input id="turnIn" class="submit" type="button" value="Click to submit" onclick="submit_revolution();">
+            </form>
+            <br />
+            <hr />
+            <br />
+            <div class="block">
+                <p id="number_correct">Finish your quiz to view your results!</p>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <table class="cleartable">
+                <tr>
+                    <td width="650">
+                        <i>TEAM #2068</i>
+                        <br />
+                        <i>Software Development</i>
+                        <br />
+                        <i>Technology Student Association</i>
+                    </td>
+                    <td width="100">
+                        <a href="https://tsaweb.org/">
+                            <img class="footerimg" src="tsa_logo.png" width="100" alt="TSA Logo" />
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

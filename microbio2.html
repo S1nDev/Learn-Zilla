@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>LearnZilla | Subjects | Biology</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    <link rel="icon" type="image/bmp" href="favicon.bmp" />
+    <script type="text/javascript" src="submit.js"></script>
+    <script type="text/javascript" src="profile.js"></script>
+    <script type="text/javascript" src="performance.js"></script>
+    <script type="text/javascript" src="clock.js"></script>
+</head>
+<body>
+    <!--main-->
+    <div class="main">
+        <!--header-->
+        <div class="header">
+            <img id="center" src="learnzilla.bmp" width="550" alt="Learnzilla" />
+        </div>
+        <!--nav-->
+        <div class="nav">
+            <a class="navlinks" href="home.html">Home</a>
+            <a class="navlinks" href="about.html">About</a>
+            <a class="navlinks" id="currentnav">Subjects</a>
+            <a class="navlinks" href="login.html">Login</a>
+            <a class="navlinks" href="progress.html">Progress</a>
+        </div>
+        <!--content-->
+        <div class="content">
+            <p>Based on the information on the previous page, answer the following questions:</p>
+            <form name="quiz">
+                <fieldset id="q1">
+                    <legend>#1</legend>
+                    <p id="mark1" style="float: right"></p>
+                    <p>What are the 3 main components of a nucleotide? </p>
+                    <input type="radio" name="q1" value="a"> A. Phosphate, sugar, nitrogenous base <br />
+                    <input type="radio" name="q1" value="b"> B. Sugar, fatty acid, nitrogenous base<br />
+                    <input type="radio" name="q1" value="c"> C. Carbohydrate, nitrogenous base, fatty acid<br />
+                    <input type="radio" name="q1" value="d"> D. Lipid, sugar, phosphate group<br />
+                    <br />
+                </fieldset>
+                <br />
+                <fieldset id="q2">
+                    <legend>#2</legend>
+                    <p id="mark2" style="float: right"></p>
+                    <p>What is the shape of DNA?</p>
+                    <input type="radio" name="q2" value="a"> A. Spiral<br />
+                    <input type="radio" name="q2" value="b"> B. Cylinder<br />
+                    <input type="radio" name="q2" value="c"> C. Double helix<br />
+                    <input type="radio" name="q2" value="d"> D. Circle<br />
+                    <br />
+                </fieldset>
+                <br />
+                <fieldset id="q3">
+                    <legend>#3</legend>
+                    <p id="mark3" style="float: right"></p>
+                    <p>What is the name of the sugar in DNA? </p>
+                    <input type="radio" name="q3" value="a"> A. Ribose<br />
+                    <input type="radio" name="q3" value="b"> B. Sucrose<br />
+                    <input type="radio" name="q3" value="c"> C. Deoxyribose<br />
+                    <input type="radio" name="q3" value="d"> D. Fructose<br />
+                    <br />
+                </fieldset>
+                <br />
+                <fieldset id="q4">
+                    <legend>#4</legend>
+                    <p id="mark4" style="float: right"></p>
+                    <p>Where is the DNA of a eukaryotic cell located? </p>
+                    <input type="radio" name="q4" value="a"> A. Cytoplasm<br />
+                    <input type="radio" name="q4" value="b"> B. Ribosome<br />
+                    <input type="radio" name="q4" value="c"> C. Golgi apparatus<br />
+                    <input type="radio" name="q4" value="d"> D. Nucleus<br />
+                    <br />
+                </fieldset>
+                <br />
+                <fieldset id="q5">
+                    <legend>#5</legend>
+                    <p id="mark5" style="float: right"></p>
+                    <p>Through what process is DNA copied? </p>
+                    <input type="radio" name="q5" value="a"> A. DNA replication<br />
+                    <input type="radio" name="q5" value="b"> B. DNA translation<br />
+                    <input type="radio" name="q5" value="c"> C. Protein synthesis<br />
+                    <input type="radio" name="q5" value="d"> D. Photosynthesis<br />
+                    <br />
+                </fieldset>
+                <br />
+                <input id="turnIn" class="submit" type="button" value="Click to submit" onclick="submit_microbio();">
+            </form>
+            <br />
+            <hr />
+            <br />
+            <div class="block">
+                <p id="number_correct">Finish your quiz to view your results!</p>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <table class="cleartable">
+                <tr>
+                    <td width="650">
+                        <i>TEAM #2068</i>
+                        <br />
+                        <i>Software Development</i>
+                        <br />
+                        <i>Technology Student Association</i>
+                    </td>
+                    <td width="100">
+                        <a href="https://tsaweb.org/">
+                            <img class="footerimg" src="tsa_logo.png" width="100" alt="TSA Logo" />
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

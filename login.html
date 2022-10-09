@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>LearnZilla | Login</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    <link rel="icon" type="image/bmp" href="favicon.bmp" />
+    <script type="text/javascript" src="profile.js"></script>
+    <script type="text/javascript" src="performance.js"></script>
+    <script type="text/javascript" src="clock.js"></script>
+</head>
+<body onload="isLoggedIn();">
+    <!--main-->
+    <div class="main">
+        <!--header-->
+        <div class="header">
+            <img id="center" src="learnzilla.bmp" width="550" alt="Learnzilla" />
+        </div>
+        <!--nav-->
+        <div class="nav">
+            <a class="navlinks" href="home.html">Home</a>
+            <a class="navlinks" href="about.html">About</a>
+            <a class="navlinks" href="subjects.html">Subjects</a>
+            <a class="navlinks" id="currentnav">Login</a>
+            <a class="navlinks" href="progress.html">Progress</a>
+        </div>
+        <!--content-->
+        <div id="login" class="content">
+            <h1>Login</h1>
+            <!--Login form-->
+            <form name="login">
+                <fieldset>
+                    <legend>Login</legend>
+                    <span id="logPane" style="display: inline">
+                        <img src="login.bmp" width="50" style="float: right" />
+                        <input type="text" id="getUsername" placeholder="Username" size="35"><br />
+                        <input type="password" id="getPassword" placeholder="Password" size="35"><br />
+                        <button type="button" class="nextlink" onclick="loginUser();">Login</button>
+                    </span>
+                    <span id="logoutPane" style="display: none">
+                        <button type="button" class="nextlink" onclick="logoutUser();">Log out</button>
+                    </span>
+                    <p id="loginStatus"></p>
+                </fieldset>
+            </form>
+            <br />
+            <br />
+            <hr />
+            <br />
+            <h3>Don't have an account? Sign up here!</h3>
+            <!--Register user form-->
+            <form name="signup">
+                <fieldset>
+                    <legend>Sign Up</legend>
+                    <img src="signup.bmp" width="75" style="float: right" />
+                    <input type="text" id="newUsername" placeholder="Username" size="35"><br />
+                    <input type="password" id="newPassword" placeholder="Password" size="35"><br />
+                    <button type="button" class="nextlink" onclick="registerUser();">Sign Up</button>
+                </fieldset>
+            </form>
+            <br />
+            <br />
+            <hr />
+            <div class="references">
+                <p>Registered users are saved to the databases of this website.</p>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <table class="cleartable">
+                <tr>
+                    <td width="650">
+                        <i>TEAM #2068</i>
+                        <br />
+                        <i>Software Development</i>
+                        <br />
+                        <i>Technology Student Association</i>
+                    </td>
+                    <td width="100">
+                        <a href="https://tsaweb.org/">
+                            <img class="footerimg" src="tsa_logo.png" width="100" alt="TSA Logo" />
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
