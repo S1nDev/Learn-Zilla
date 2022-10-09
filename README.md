@@ -19,7 +19,17 @@
 General Information:
 
 This educational and social software program was developed under the software development event guidelines of the Technology Student Association. All 
-utilized sources and materials are properly documented under APA guidelines. This is not a legitiment Internet platform; this is only a project created 
+utilized sources and materials are prop
+ 
+ 
+ 
+ _         _______   _______   _______   ___   __   _______   _______   _         _         _______
+| |       |  _____| |  ___  | |  ___  | |   \ |  | |___    | |__   __| | |       | |       |  ___  |
+| |       | |_____  | |___| | | |___| | |    \|  |    /   /     | |    | |       | |       | |___| |
+| |       |  _____| |  ___  | |      _| |        |   /   /      | |    | |       | |       |  ___  |
+| |_____  | |_____  | |   | | | |\   \  |  |\    |  /   /__   __| |__  | |_____  | |_____  | |   | |
+|_______| |_______| |_|   |_| |_| \___\ |__| \___| |_______| |_______| |_______| |_______| |_|   |_|
+erly documented under APA guidelines. This is not a legitiment Internet platform; this is only a project created 
 in compliance to the event guidelines of the 2019-2020 Technology Student Association competition for software development.
 
 Google / Edge compatable.
